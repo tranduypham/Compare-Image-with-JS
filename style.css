@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.img-cmp{
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    user-select: none;
+}
+
+.button{
+    position: absolute;
+    z-index: 999;
+    background-color: hotpink;
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 1px solid hotpink;
+}
